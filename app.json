@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "导航栏标题文字内容",
+    "backgroundColor": "#FF3300",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF3300",
+    "backgroundColor": "ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/xao2.png",
+        "selectedIconPath": "images/xao2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/xao3.png",
+        "selectedIconPath": "images/xao3.png"
+      }
+    ]
+  },
+  "debug": "true"
+}
