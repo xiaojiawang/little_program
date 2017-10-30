@@ -1,1 +1,7 @@
 /* test.wxss */
+.xao_test
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
